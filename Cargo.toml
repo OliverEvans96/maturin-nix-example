@@ -1,12 +1,12 @@
 [package]
-name = "maturin-nix-example"
+name = "testpkg"
 version = "0.1.0"
 authors = ["Oliver Evans <oliverevans96@gmail.com>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "maturin_nix_example"
+name = "testpkg"
 crate-type = ["cdylib"]
 
 [dependencies]
