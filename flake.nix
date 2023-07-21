@@ -56,7 +56,6 @@
             maturin build --offline --target-dir ./target
           '';
           installPhase = old.installPhase + ''
-            ls -lrthR target
             cp target/wheels/${wheelName} $out/
           '';
         });
